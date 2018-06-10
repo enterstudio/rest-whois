@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # core
-gem 'rails', '~> 4.2.7.1'
+gem 'rails', '~> 5.0.0.0'
 gem 'simpleidn', '0.0.6' # For punycode
 
 # model related
@@ -11,7 +11,7 @@ gem 'pg', '~> 0.18.0'
 gem 'SyslogLogger', '2.0', require: 'syslog/logger'
 
 # views
-gem 'haml-rails', '~> 0.9.0'
+gem 'haml-rails', '~> 1.0.0'
 gem 'recaptcha', '~> 1.1.0', require: 'recaptcha/rails'
 
 # load env
@@ -29,7 +29,7 @@ group :development, :test do
 
   # dev tools
   gem 'spring',  '~> 1.3.3'
-  gem 'rubocop', '~> 0.26.1'
+  gem 'rubocop', '~> 0.49.0'
 
   # improved errors
   gem 'better_errors',     '~> 2.0.0'
