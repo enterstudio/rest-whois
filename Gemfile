@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # core
-gem 'rails', '~> 4.2.7.1'
+gem 'rails', '~> 4.2.8.0'
 gem 'simpleidn', '0.0.6' # For punycode
 
 # model related
@@ -12,7 +12,7 @@ gem 'SyslogLogger', '2.0', require: 'syslog/logger'
 
 # views
 gem 'haml-rails', '~> 0.9.0'
-gem 'recaptcha', '~> 1.1.0', require: 'recaptcha/rails'
+gem 'recaptcha', '1.1.2'
 
 # load env
 gem 'figaro', '~> 1.1.0'
