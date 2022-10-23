@@ -32,7 +32,7 @@ group :development, :test do
   gem 'rubocop', '~> 0.26.1'
 
   # improved errors
-  gem 'better_errors',     '~> 2.0.0'
+  gem 'better_errors', '~> 2.0.0'
   gem 'binding_of_caller', '~> 0.7.2'
 
   # deploy
