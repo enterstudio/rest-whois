@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # core
-gem 'rails', '~> 4.2.7.1'
+gem 'rails', '~> 5.0.0.0'
 gem 'simpleidn', '0.0.6' # For punycode
 
 # model related
@@ -32,7 +32,7 @@ group :development, :test do
   gem 'rubocop', '~> 0.26.1'
 
   # improved errors
-  gem 'better_errors',     '~> 2.0.0'
+  gem 'better_errors', '~> 2.0.0'
   gem 'binding_of_caller', '~> 0.7.2'
 
   # deploy
