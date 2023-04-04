@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # core
-gem 'rails', '~> 4.2.7.1'
+gem 'rails', '~> 6.1.7.3'
 gem 'simpleidn', '0.0.6' # For punycode
 
 # model related
@@ -11,8 +11,8 @@ gem 'pg', '~> 0.18.0'
 gem 'SyslogLogger', '2.0', require: 'syslog/logger'
 
 # views
-gem 'haml-rails', '~> 0.9.0'
-gem 'recaptcha', '~> 1.1.0', require: 'recaptcha/rails'
+gem 'haml-rails', '~> 1.0.0'
+gem 'recaptcha', '~> 1.1.2', require: 'recaptcha/rails'
 
 # load env
 gem 'figaro', '~> 1.1.0'
@@ -29,10 +29,10 @@ group :development, :test do
 
   # dev tools
   gem 'spring',  '~> 1.3.3'
-  gem 'rubocop', '~> 0.26.1'
+  gem 'rubocop', '~> 0.49.0'
 
   # improved errors
-  gem 'better_errors',     '~> 2.0.0'
+  gem 'better_errors', '~> 2.8.0'
   gem 'binding_of_caller', '~> 0.7.2'
 
   # deploy
