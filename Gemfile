@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # core
-gem 'rails', '~> 4.2.7.1'
+gem 'rails', '~> 7.0.0.0'
 gem 'simpleidn', '0.0.6' # For punycode
 
 # model related
@@ -11,7 +11,7 @@ gem 'pg', '~> 0.18.0'
 gem 'SyslogLogger', '2.0', require: 'syslog/logger'
 
 # views
-gem 'haml-rails', '~> 0.9.0'
+gem 'haml-rails', '~> 2.1.0'
 gem 'recaptcha', '~> 1.1.0', require: 'recaptcha/rails'
 
 # load env
